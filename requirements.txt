@@ -4,6 +4,7 @@
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 pydantic==2.5.3
+python-3.11.9
 
 # ML and data processing
 sentence-transformers==2.3.1
@@ -13,8 +14,8 @@ numpy<2
 pandas==2.2.0
 
 # Text processing
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.25.0
+rapidfuzz
+
 
 # Excel support (if needed for data loading)
 openpyxl==3.1.2

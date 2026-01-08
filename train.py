@@ -13,7 +13,7 @@ import numpy as np
 import re
 import joblib
 import warnings
-from fuzzywuzzy import process, fuzz
+from rapidfuzz import process, fuzz
 from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
